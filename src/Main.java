@@ -18,7 +18,11 @@ public static void main(String[] args) {
 }
 
 private static void imprimir(Figura[] v) {
-    System.out.println(v);
+    for (Figura f: v) {
+        System.out.println(f);
+    }
+
+
 }
 
 private static void ordena(Figura[] v) {

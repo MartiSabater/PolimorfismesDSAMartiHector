@@ -5,4 +5,8 @@ public abstract class Figura implements  Comparable<Figura> {
         return Double.compare(this.area(), f.area());
     }
 
+    @Override
+    public String toString() {
+        return this.getClass().getSimpleName()+" "+area();
+    }
 }
